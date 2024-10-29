@@ -1,4 +1,3 @@
-/* Estilos gerais para o formulário de cadastro */
 body {
     font-family: "Helvetica Neue", sans-serif;
     color: #444;
@@ -26,7 +25,6 @@ header h1 {
     margin: 0.5em 0;
 }
 
-/* Estilos de navegação */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -39,7 +37,6 @@ nav ul li {
     font-weight: bold;
 }
 
-/* Estilos para validação de campos */
 input:valid {
     border: 1px solid green;
 }
@@ -64,13 +61,11 @@ input:invalid::after {
     font-size: 1.2em;
 }
 
-/* Posição e estilo para os campos específicos */
 #nome, #email, #cpf, #idade {
     position: relative;
     padding-right: 25px;
 }
 
-/* Título de cadastro */
 #cadastro-header {
     font-size: 1.8em;
     color: rgb(140, 76, 8);
@@ -78,7 +73,6 @@ input:invalid::after {
     margin-bottom: 1em;
 }
 
-/* Formulário */
 form fieldset {
     border: 1px solid #ccc;
     padding: 1em;
@@ -93,19 +87,16 @@ fieldset:has(input:invalid) {
     border-color: red;
 }
 
-/* Estilo para diversos tipos de cabeçalhos */
 :is(h1, h2, h3) {
     font-family: "Helvetica Neue", sans-serif;
     color: rgb(140, 76, 8);
 }
 
-/* Estilos para o primeiro item na lista de navegação */
 nav ul li:first-child {
     font-weight: bold;
     color: rgb(140, 76, 8);
 }
 
-/* Estilo para o primeiro título de cada seção */
 section h2:first-of-type {
     color: rgb(140, 76, 8);
     font-weight: bold;
