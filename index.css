@@ -1,0 +1,78 @@
+/* Estilos gerais para todas as páginas */
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #444;
+    line-height: 1.5;
+    background-color: #ddd;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+main {
+    background-color: white;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para cabeçalho */
+header {
+    text-align: center;
+    color: rgb(140, 76, 8);
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+nav ul li:first-child {
+    color: rgb(140, 76, 8);
+}
+
+/* Estilos para links */
+a {
+    color: rgb(140, 76, 8);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(180, 90, 20);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(200, 50, 10);
+}
+
+a:visited {
+    color: rgb(100, 60, 30);
+}
+
+/* Títulos das seções */
+.section-title {
+    font-size: 1.6em;
+    color: rgb(140, 76, 8);
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+h2 + p {
+    font-style: italic;
+    color: #666;
+}
